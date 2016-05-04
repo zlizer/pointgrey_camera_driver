@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(pointgrey_camera_driver)
 
+set(CMAKE_BUILD_TYPE Release)
+
 find_package(catkin REQUIRED COMPONENTS
   roscpp roslint nodelet sensor_msgs wfov_camera_msgs
   image_exposure_msgs camera_info_manager image_transport
